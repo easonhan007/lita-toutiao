@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = "lita-toutiao"
-  spec.version       = "0.1.0"
+  spec.version       = "0.1.1"
   spec.authors       = ["easonhan"]
   spec.email         = ["nbkhic@qq.com"]
   spec.description   = "Fetch everyday's develop news from toutiao.io"

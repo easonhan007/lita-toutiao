@@ -5,7 +5,7 @@ module Lita
     class Toutiao < Handler
 
       route(/toutiao/, :fetch_toutiao, command: true, help: {
-        "v2ex" => "display 10 hot posts of v2ex today"
+        "toutiao" => "Display develop posts from toutiao.io"
       })
 
       def fetch_toutiao response

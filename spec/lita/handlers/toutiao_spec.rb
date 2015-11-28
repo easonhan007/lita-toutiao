@@ -6,6 +6,6 @@ describe Lita::Handlers::Toutiao, lita_handler: true do
   it 'should get content form toutiao' do
     send_command('toutiao')
     #puts replies.last
-    expect(replies).not_to be_empty
+    expect(replies.last).to include('toutiao.io')
   end
 end
