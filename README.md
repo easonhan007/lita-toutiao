@@ -12,8 +12,10 @@ gem "lita-toutiao"
 
 ## Configuration
 
-TODO: Describe any configuration attributes the plugin exposes.
+Nothing to config
 
 ## Usage
 
-TODO: Describe the plugin's features and how to use them.
+```
+Lita toutiao
+```
